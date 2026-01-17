@@ -1,11 +1,34 @@
-🏠 House Price Prediction (Linear Regression)
-This project predicts house prices based on multiple input features such as:
+# 🏠 House Price Prediction using Linear Regression
 
-Area (in square feet)
-BHK (Bedroom count)
-Age of the property (in years)
-Furnished status (1 = Yes, 0 = No)
-The model is built using LinearRegression from scikit-learn and allows the user to input values dynamically to get a price prediction.
+This project predicts residential property prices using a Linear Regression model trained on key house features. The model takes user input at runtime and returns a clean price estimate without decimals.
 
-📂 Project Structure
-project/ ├─ house_price_prediction.py ├─ house_data.csv ├─ requirements.txt └─ README.md
+---
+
+## 🎯 Objective
+
+Build a simple and usable ML model that can:
+- Learn from structured housing data
+- Accept user inputs (Area, BHK, Age, Furnished)
+- Predict the final house price instantly
+- Output clean, realistic integer values
+
+---
+
+## 📊 Model Features
+
+The model uses the following features:
+
+| Feature     | Description |
+|-------------|-------------|
+| Area        | Size of house in square feet |
+| BHK         | Number of bedrooms |
+| Age         | Property age in years |
+| Furnished   | 1 = Furnished, 0 = Not Furnished |
+
+Target variable:
+- **Price** (in rupees)
+
+---
+
+## 📂 Project Files
+
