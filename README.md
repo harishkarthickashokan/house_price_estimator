@@ -29,6 +29,3 @@ Target variable:
 - **Price** (in rupees)
 
 ---
-
-## 📂 Project Files
-
